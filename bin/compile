@@ -92,7 +92,6 @@ if [[ ! -f "${CACHE_DIR}/bin/nginx" ]]; then
     --with-pcre \
     --with-cc-opt="-O2 -static -static-libgcc" \
     --without-http_charset_module \
-    --without-http_ssi_module \
     --without-http_userid_module \
     --without-http_access_module \
     --without-http_auth_basic_module \
